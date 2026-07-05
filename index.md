@@ -1,21 +1,87 @@
 ---
-layout: home
+layout: page
 title: Ali Abbasi Tadi
 ---
 
-## Introduction
+<div class="hero">
+  <p class="eyebrow">AI Security Researcher · PhD, Computer Science</p>
+  <h1>Ali Abbasi Tadi</h1>
+  <p class="tagline">I research how generative AI systems fail under adversarial pressure — and how to make them safer. Focus areas: LLM &amp; RAG red-teaming, adversarial machine learning, and privacy-preserving ML.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="mailto:Ali.Abbasi.Tadi@gmail.com">Email me</a>
+    <a class="btn" href="https://www.linkedin.com/in/ali-abbasi-tadi/">LinkedIn</a>
+    <a class="btn" href="https://scholar.google.com/citations?hl=en&user=mlbVx4kAAAAJ">Google Scholar</a>
+    <a class="btn" href="https://github.com/humanworth">GitHub</a>
+  </div>
+</div>
 
-I'm an AI/ML researcher and engineer with a PhD in Computer Science, currently working on AI security and LLM evaluation for enterprise generative AI systems at TD Bank Group. My research sits at the intersection of adversarial machine learning, privacy-preserving ML, and large language model security — designing methods to find and fix the ways AI systems fail under adversarial pressure.
+<div class="stats">
+  <div class="stat"><span class="stat-num">9</span><span class="stat-label">Publications</span></div>
+  <div class="stat"><span class="stat-num">2</span><span class="stat-label">Patents Filed</span></div>
+  <div class="stat"><span class="stat-num">1</span><span class="stat-label">Best Paper Award</span></div>
+  <div class="stat"><span class="stat-num">PhD</span><span class="stat-label">Windsor, 2025</span></div>
+</div>
 
-Before that, I spent four years as a researcher at the University of Windsor building privacy-preserving and federated learning systems, publishing 9 peer-reviewed papers along the way.
+I currently work on AI security and LLM evaluation for enterprise generative AI systems at TD Bank Group. Before that, I spent four years as a researcher at the University of Windsor building privacy-preserving and federated learning systems. This site is where I write about AI security research, red-teaming LLMs, and lessons from the intersection of academia and industry.
 
-This site is where I'll write about AI security research, red-teaming LLMs, and the occasional lesson learned from the intersection of academia and industry. See [Work Experience](/work-experience/) for a full history.
+<p class="section-title">Experience</p>
 
-## Highlights
+<div class="timeline">
 
-- **Co-invented and filed 2 patents** at TD Bank on automated adversarial-agent techniques for testing LLM and RAG systems, including the first documented RAG-on-RAG attack methodology.
-- **9 peer-reviewed publications** spanning adversarial ML, membership inference, privacy-preserving clustering, and federated learning — including a **Best Paper Award** at the Canadian AI Conference 2022.
-- Built **Trustformer**, a federated-learning transformer architecture for secure distributed training, and the first-ever privacy-preserving clustering framework for single-cell RNA transcriptomics data.
-- **Top-5 finish**, iDASH Security Competition (Task III), 2022.
-- Judge, **Genesis AI Hackathon 2026** (University of Toronto) — evaluating production-grade generative AI systems for safety and adversarial resilience.
-- Mentored graduate researchers to a 100% conference-acceptance rate and delivered 30+ technical workshops on ML, cybersecurity, and data science.
+<div class="timeline-item">
+  <span class="dates">2025 – Present</span>
+  <div class="role">Machine Learning Engineer — AI/GenAI/ML Security</div>
+  <div class="org">TD Bank Group, Toronto, ON</div>
+  <p>Red-teaming enterprise LLM and RAG systems; co-inventor on 2 filed patents for automated adversarial-agent testing techniques.</p>
+</div>
+
+<div class="timeline-item">
+  <span class="dates">2021 – 2025</span>
+  <div class="role">Research Assistant</div>
+  <div class="org">University of Windsor</div>
+  <p>Privacy-preserving ML and federated learning research; 5 co-authored papers in top-tier venues.</p>
+</div>
+
+<div class="timeline-item">
+  <span class="dates">2022 – 2024</span>
+  <div class="role">Research &amp; Project Mentor</div>
+  <div class="org">Advanced Computing Hub, University of Windsor</div>
+  <p>Delivered 30+ workshops on ML, cybersecurity, and data science; mentored graduate researchers.</p>
+</div>
+
+<div class="timeline-item">
+  <span class="dates">2021 – 2023</span>
+  <div class="role">Software Engineer — Site Reliability (Part-time)</div>
+  <div class="org">Thirdstream Inc.</div>
+  <p>Re-architected Azure microservices for fraud-detection workflows; cut API latency ~20%.</p>
+</div>
+
+</div>
+
+<p class="timeline-more"><a href="/work-experience/">See full work history &amp; education →</a></p>
+
+<p class="section-title">Skills</p>
+
+<div class="chip-group">
+  <span class="chip-group-label">AI Security &amp; Research</span>
+  <div class="chips">
+    <span class="chip">Adversarial ML</span>
+    <span class="chip">LLM Red-Teaming</span>
+    <span class="chip">RAG Security</span>
+    <span class="chip">Membership Inference</span>
+    <span class="chip">Privacy-Preserving ML</span>
+    <span class="chip">Federated Learning</span>
+  </div>
+</div>
+
+<div class="chip-group">
+  <span class="chip-group-label">Engineering</span>
+  <div class="chips">
+    <span class="chip">Python</span>
+    <span class="chip">PyTorch</span>
+    <span class="chip">TensorFlow</span>
+    <span class="chip">LangChain</span>
+    <span class="chip">Docker / Kubernetes</span>
+    <span class="chip">Azure</span>
+  </div>
+</div>

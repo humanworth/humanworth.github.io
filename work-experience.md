@@ -59,5 +59,5 @@ Designed database architecture and tech stack for an oil-contracts management pr
 ### Education
 
 - **Ph.D., Computer Science** — University of Windsor, Canada (Feb 2025)
-- **M.Sc., Computer Network Engineering** — Safahan Institute of Higher Education, Iran (Mar 2017)
-- **B.Sc., Software Engineering** — Isfahan University of Technology, Iran (Jun 2011)
+- **M.Sc., Computer Network Engineering** — Iran (Mar 2017)
+- **B.Sc., Software Engineering** — Iran (Jun 2011)
