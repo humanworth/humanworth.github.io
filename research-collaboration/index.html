@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Seven AI Security Directions — Ali Abbasi Tadi</title>
-<meta name="description" content="Research collaboration proposal: seven candidate directions in AI security for a joint program with the lab.">
+<title>Six AI Security Directions — Ali Abbasi Tadi</title>
+<meta name="description" content="Research collaboration proposal: six candidate directions in AI security for a joint program with the lab.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
@@ -467,11 +467,11 @@
 
   <header class="hero">
     <p class="eyebrow">Research collaboration proposal</p>
-    <h1>Seven AI Security Directions</h1>
+    <h1>Six AI Security Directions</h1>
     <p class="tagline">Candidate projects for a joint program between the lab and my applied security work at a Canadian bank — selected for publishability, student-suitability, and zero dependence on proprietary data.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="#ask">What I'm asking for</a>
-      <a class="btn" href="#directions">The seven directions</a>
+      <a class="btn" href="#directions">The six directions</a>
       <a class="btn" href="mailto:Ali.Abbasi.Tadi@gmail.com">Email me</a>
     </div>
     <div class="byline">
@@ -510,7 +510,7 @@
 
   <section id="method">
     <h2>How these were chosen</h2>
-    <p class="lede">I surveyed the 2026 literature before writing this. Every obvious topic in AI security is saturated — MCP tool poisoning, agent memory poisoning, RAG membership inference, prompt injection and jailbreaking all have multiple surveys, competing attacks, and public benchmarks as of this year. Pitching a topic loses. The openings that remain fall into three categories, and all seven directions sit in one of them.</p>
+    <p class="lede">I surveyed the 2026 literature before writing this. Every obvious topic in AI security is saturated — MCP tool poisoning, agent memory poisoning, RAG membership inference, prompt injection and jailbreaking all have multiple surveys, competing attacks, and public benchmarks as of this year. Pitching a topic loses. The openings that remain fall into three categories, and all six directions sit in one of them.</p>
 
     <div class="patterns">
       <div class="pattern">
@@ -540,16 +540,16 @@
   </section>
 
   <section id="directions">
-    <h2>The seven directions</h2>
+    <h2>The six directions</h2>
     <p class="lede">Numbered by how well they fit my position and the lab's existing strengths, not by difficulty. Open any one for the first experiment, the venue, and what it would take.</p>
 
     <div class="filters">
       <span class="filter-label">Show</span>
-      <button class="filter" type="button" data-filter="all" aria-pressed="true">All seven</button>
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">All six</button>
       <button class="filter" type="button" data-filter="now" aria-pressed="false">Could start now</button>
       <button class="filter" type="button" data-filter="student" aria-pressed="false">Student-suitable</button>
       <button class="filter" type="button" data-filter="privacy" aria-pressed="false">Continues the privacy line</button>
-      <span class="count" id="count">7 of 7 shown</span>
+      <span class="count" id="count">6 of 6 shown</span>
     </div>
 
     <div class="directions" id="dirlist">
@@ -719,55 +719,9 @@
         </div>
       </details>
 
-      <details class="dir" data-tags="">
-        <summary>
-          <span class="dir-num">07</span>
-          <span class="dir-head">
-            <h3>Defenses against retrieval-mediated adversarial agents</h3>
-            <span class="chips">
-              <span class="chip">Gap C</span>
-              <span class="chip chip-warn">Needs employer clearance</span>
-            </span>
-          </span>
-          <span class="toggle"></span>
-        </summary>
-        <div class="dir-body">
-          <p class="gap"><span class="lbl">The gap</span>I hold a filed patent on an attack class where one RAG system is used to attack another. The attack literature is filling in quickly; the defense side is much thinner, and I have both priority and a threat model that isn't yet in the public literature.</p>
-          <dl class="spec">
-            <dt>First experiment</dt>
-            <dd>Anomaly detection over retrieval patterns, provenance-based trust propagation through the retrieval chain, and retrieval-time attestation — evaluated against the attack family on public corpora.</dd>
-            <dt>Why us</dt>
-            <dd>Writing the defense to my own attack is a defensible position. Flagged honestly: this is the one direction that needs my employer's publication approval first, which I am pursuing in parallel.</dd>
-            <dt>Venue</dt>
-            <dd>CCS or NDSS; AISec for a first version.</dd>
-            <dt>Effort</dt>
-            <dd>Hold until clearance lands. Not a dependency for anything else here.</dd>
-          </dl>
-        </div>
-      </details>
-
       <p class="empty" id="empty" hidden>No directions match that filter.</p>
 
     </div>
-  </section>
-
-  <section id="timing">
-    <h2>Timing</h2>
-    <p class="lede">Two of these are close enough to a deadline to matter for planning.</p>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>Venue</th><th>Target</th><th>Deadline</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>USENIX Security '27, Cycle 2</td><td>Direction 02</td><td class="when">26 Jan 2027</td></tr>
-          <tr><td>NeurIPS Datasets &amp; Benchmarks</td><td>Direction 06</td><td class="when">~May 2027 <span class="est">est.</span></td></tr>
-          <tr><td>AISec @ CCS</td><td>Direction 04 or 07</td><td class="when">~Jun 2027 <span class="est">est.</span></td></tr>
-          <tr><td>PETS</td><td>Direction 01</td><td class="when">Rolling cycles</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="lede" style="font-size:0.92rem;">USENIX dates are from the published call. The other two are estimates from previous years and need confirming.</p>
   </section>
 
   <section id="practical">
@@ -777,7 +731,7 @@
         <span class="note-dot">·</span>
         <div>
           <div class="note-title">Nothing here touches my employer's data or systems</div>
-          <div class="note-text">Every direction runs on public corpora, public models, or synthetic data. Direction 07 is the single exception and is explicitly gated on written approval.</div>
+          <div class="note-text">Every direction runs on public corpora, public models, or synthetic data.</div>
         </div>
       </div>
       <div class="note">
